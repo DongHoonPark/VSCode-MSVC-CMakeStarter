@@ -1,8 +1,8 @@
 cmake_minimum_required(VERSION 3.8)
 
-project(hardware_accelerator)
+project(my_project_name)
 
-set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD 11)
 
 if(MSVC)
     set(CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE} /MT")
